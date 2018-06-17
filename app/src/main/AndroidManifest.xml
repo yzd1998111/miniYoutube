@@ -25,7 +25,11 @@
         </activity>
         <activity
             android:name=".YoutubeActivity"
+            android:label="Youtube Player"
             android:exported="true" />
+        
+        <activity android:name=".StandaloneActivity"
+            android:label="Standalone Activity"/>
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
